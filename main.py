@@ -335,7 +335,7 @@ class Registration(QMainWindow):
 
         self.back_background.setStyleSheet("""
                     QTextBrowser {
-                        background-image: url('images/background.jpg'); /* Укажите путь к вашему изображению */
+                        background-image: url('background.jpg'); /* Укажите путь к вашему изображению */
                         background-repeat: no-repeat;
                         background-position: center;
                         background-size: cover;
@@ -643,7 +643,7 @@ class Entrance(QMainWindow):
 
         self.back_background.setStyleSheet("""
                             QTextBrowser {
-                                background-image: url('images/background.jpg'); /* Укажите путь к вашему изображению */
+                                background-image: url('background.jpg'); /* Укажите путь к вашему изображению */
                                 background-repeat: no-repeat;
                                 background-position: center;
                                 background-size: cover;
@@ -1747,7 +1747,7 @@ class AboutAuthor(QMainWindow):
         self.about_author.setOpenExternalLinks(True)
 
         # Изображение sbackground
-        self.pixmap = QPixmap('images/me.ico')
+        self.pixmap = QPixmap('me.ico')
         self.photo.setPixmap(self.pixmap)
 
         self.background.setStyleSheet("""
